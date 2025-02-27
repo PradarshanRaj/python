@@ -1,0 +1,69 @@
+
+age = 25
+print("Integer (Age):", age)
+
+
+temperature = 36.6
+print("Float (Temperature):", temperature)
+
+
+impedance = 5 + 2j
+print("Complex Number (Impedance):", impedance)
+
+
+name = "Alice Johnson"
+print("String (Name):", name)
+
+
+shopping_list = ["Milk", "Bread", "Eggs", "Butter"]
+print("List (Shopping Items):", shopping_list)
+
+
+coordinates = (40.7128, -74.0060)
+print("Tuple (Coordinates):", coordinates)
+
+
+car_brands = {"Toyota", "Ford", "BMW", "Tesla"}
+print("Set (Car Brands):", car_brands)
+
+
+user_info = {"name": "Alice", "age": 25, "city": "New York"}
+print("Dictionary (User Info):", user_info)
+
+is_store_open = True
+print("Boolean (Store Open):", is_store_open)
+
+image_data = b"\x89PNG\r\n\x1a\n"
+print("Bytes (Image Data):", image_data)
+
+
+mod_data = bytearray([120, 121, 122])
+print("Bytearray (Modifiable Data):", mod_data)
+
+
+memory_view = memoryview(bytes([10, 20, 30]))
+print("Memoryview (Byte View):", memory_view.tolist())
+
+response = None
+print("NoneType (Response):", response)
+
+
+prices = [100, 200, 300]
+prices_with_tax = [price * 1.1 for price in prices]
+print("List Comprehension (Prices with Tax):", prices_with_tax)
+
+
+latitude, longitude = coordinates
+print("Tuple Unpacking (Latitude, Longitude):", latitude, longitude)
+
+
+car_brands.add("Mercedes")
+print("Updated Set (Car Brands):", car_brands)
+
+
+user_info["age"] = 26
+print("Updated Dictionary (User Info):", user_info)
+
+
+eligible_for_discount = (age > 18) and (is_store_open)
+print("Boolean Logic (Eligible for Discount):", eligible_for_discount)
